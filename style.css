@@ -50,30 +50,72 @@ body{
 }
 
 #textoABA{
-    font-size: 2rem;
+    font-size: 3rem;
     color: black;
     font-weight: 700;
     z-index: 1000;
+    margin-top: 190px;
     
 
 }
 
+#divTextoAba{
+    -webkit-backface-visibility: hidden;
+    
+}
+
 .textosec{
     font-size: 1.5rem;
+    color: #707070;
+    -webkit-backface-visibility: hidden;
+    line-height: 97%;
 }
 #paragrafosAba{
-    margin-left: 2rem;
+    margin-left: 2.4rem;
+    -webkit-backface-visibility: hidden;
+    line-height: 300%;
+    
 }
+button{
+    width: 220px;
+}
+#entreEmContatoBtn{
+    background-color: #03B5E6;
+    font-weight: 700;
+    
+}
+#conhecaBtn{
+    border-color: #FEC92E;
+    border-width: 1px;
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#entreEmContatoBtn:hover{
+    background-color: #FEC92E;
+    color: black;
+}
+
+#conhecaBtn:hover{
+    background-color: #03B5E6;
+    color: white;
+}
+
+
 @media (width < 480px) {
     .textosec{
-        font-size: 14px;
+        font-size: 20px;
     }
 
     #textoABA{
-        font-size: 18px;
+        font-size: 30px;
+        line-height: 97%;
+        margin-top: 30px;
     }
     #imagemCrianca{
-        width:0
+        width:0;
     }
     #navbarSupportedContent{
         background-color: white;
