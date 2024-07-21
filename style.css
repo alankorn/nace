@@ -136,10 +136,14 @@ button{
     width: 110px;
   }
 
-  #paragrafosAba{
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  nav{
+    margin: 0;
+  }
+  .logonav{
+    margin: 0
+  }
+  div{
+    margin: 0;
   }
 
   
