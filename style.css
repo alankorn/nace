@@ -24,7 +24,7 @@ body{
 .navbar{
     align-items: center;
     position: fixed;
-    opacity: 10;
+    -webkit-backface-visibility: hidden;
     z-index: 999;
     transition: 1s;
     margin-left: 0;
@@ -50,7 +50,7 @@ body{
 }
 
 #textoABA{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: black;
     font-weight: 700;
     z-index: 1000;
@@ -64,7 +64,7 @@ body{
 #paragrafosAba{
     margin-left: 2rem;
 }
-@media (width < 500px) {
+@media (width < 480px) {
     .textosec{
         font-size: 12px;
     }
@@ -75,4 +75,10 @@ body{
     #imagemCrianca{
         width:0
     }
+    #navbarSupportedContent{
+        background-color: white;
+                                                                                                                                                                   
   }
+
+}
+    
