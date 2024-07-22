@@ -34,6 +34,13 @@ body{
     
 }
 
+.textoparceiros{
+    background-image: linear-gradient(to right,#F0F0F0,#fff );
+   padding: 1%;
+    margin: 0;
+    max-width: 100%;
+}
+
 #carrossel{
    background-image: linear-gradient(to right,#F0F0F0,#fff );
    padding: 2.5%;
@@ -141,7 +148,8 @@ button{
 }
 
 
-@media (width < 500px) {
+@media (width < 450px) {
+    
     *{
         margin-left: 0;
     }
