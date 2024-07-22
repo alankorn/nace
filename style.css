@@ -51,7 +51,7 @@ body{
 }
 .slider{
     display: inline-block;
-    animation: 15s slide infinite linear;
+    animation: 25s slide infinite linear;
 }
 
 .slider img{
