@@ -52,6 +52,12 @@ body{
     margin: 0 40px;
 }
 
+#carrossel:hover .slider{
+    animation-play-state: paused;
+}
+    
+
+
 /* .carrosselimg{
     width:6rem;
     padding: 0;
