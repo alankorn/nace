@@ -39,6 +39,7 @@ body{
    padding: 1%;
     margin: 0;
     max-width: 100%;
+    margin-top: 10%;
 }
 
 #carrossel{
@@ -115,6 +116,7 @@ body{
 #paragrafosAba{
     
     line-height: 300%;
+    justify-content: center;
     
 }
 button{
@@ -160,7 +162,7 @@ button{
     #textoABA{
         font-size: 30px;
         line-height: 97%;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     #imagemCrianca{
        display: none;
