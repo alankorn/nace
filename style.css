@@ -116,7 +116,7 @@ body{
 #paragrafosAba{
     
     line-height: 300%;
-    justify-content: center;
+    
     
 }
 button{
@@ -150,7 +150,10 @@ button{
 }
 
 
-@media (width < 450px) {
+@media (width < 600px) {
+    #paragrafosABA{
+        margin: 0;
+    }
     
     *{
         margin-left: 0;
@@ -173,18 +176,19 @@ button{
   }
   
   #conhecaBtn{
-    margin: 0;
+    margin-bottom: 10px;
     width: 110px;
   }
   #entreEmContatoBtn{
     width: 110px;
+    margin-bottom: 10px;
   }
 
   nav{
     margin: 0;
   }
   .logonav{
-    margin: 0
+    margin-left: 10px;
   }
   div{
     margin: 0;
