@@ -6,6 +6,9 @@
     font-family: "Poppins", sans-serif;
     vertical-align: baseline;
 }
+main{
+
+}
 body{
     width: 100%;
 }
@@ -30,6 +33,31 @@ body{
     margin-left: 0;
     
 }
+
+#carrossel{
+   background-image: linear-gradient(to right,#F0F0F0,#fff );
+   padding: 2.5%;
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.slider{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.slider img{
+    height: 50px;
+    margin: 0 40px;
+}
+
+/* .carrosselimg{
+    width:6rem;
+    padding: 0;
+    margin: 0;
+    margin-right: 3%;
+} */
 .navbar.ativo{
     background-color: white;
     z-index: 1002;
@@ -150,3 +178,11 @@ button{
 
 }
     
+@keyframes slide{
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
