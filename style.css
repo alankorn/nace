@@ -22,7 +22,7 @@ body{
     padding-left: 2rem;
 }
 .navbar{
-    
+    max-width: 100%;
     position: fixed;
     -webkit-backface-visibility: hidden;
     z-index: 999;
@@ -39,7 +39,8 @@ body{
 .nav-link:hover{
     font-size: 18px;
 }
-#imagemCrianca{   
+#imagemCrianca{ 
+    max-width: 100%;  
     position: relative;
     padding: 0;
     margin: 0;
@@ -71,8 +72,7 @@ body{
     line-height: 97%;
 }
 #paragrafosAba{
-    margin-left: 2.4rem;
-    -webkit-backface-visibility: hidden;
+    
     line-height: 300%;
     
 }
@@ -121,7 +121,7 @@ button{
         margin-top: 30px;
     }
     #imagemCrianca{
-        width:0;
+       display: none;
     }
     #navbarSupportedContent{
         background-color: white;
