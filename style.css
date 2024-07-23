@@ -184,7 +184,8 @@ body{
     }
     .textosec{
         font-size: 20px;
-        text-align: center;
+        text-align: justify;
+        padding-right: 2%;
         
     }
 
@@ -192,7 +193,7 @@ body{
         font-size: 30px;
         line-height: 97%;
         margin-top: 1px;
-        text-align: center;
+        text-align: left;
     }
     #imagemCrianca{
        display: none;
@@ -206,11 +207,12 @@ body{
   }
   #conhecaBtn{
     margin-bottom: 10px;
-    width: 110px;
+    width: 150px;
   }
   #entreEmContatoBtn{
-    width: 110px;
+    width: 150px;
     margin-bottom: 10px;
+    
   }
 
   nav{
