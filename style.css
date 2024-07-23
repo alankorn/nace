@@ -150,8 +150,25 @@ body{
 }
 
 .sobreTerapiaABA{
-    padding-left: 10px;
+    padding-left: 22px;
     margin-top: 4%;
+}
+.sobreTerapiaABA h1{
+    padding-left: 2px;
+    font-size: 3.5rem;
+    color: black;
+}
+.explicaAba{
+    margin: 0;
+    font-size: 23px;
+    z-index: 200px;
+}
+.yellowFlower{
+    width:30%;
+    position: relative; 
+    left: 72.5%; 
+    bottom: 135px;
+    z-index: 100px;
 }
 
 
@@ -206,7 +223,29 @@ body{
     margin: 0;
   }
 
+  .sobreTerapiaABA h1{
+    font-size: 30px;
+  }
+
+  .paragrafoSobre{
+    font-size: 14px;
+    padding-right: 30%;
+    
+    
+  }
+
+  .sobreTerapiaABA{
+    padding: 12px;
+  }
+
+  .yellowFlower{
+    position: relative;
+    left: 76.5%;
+    width: 30%;
+    bottom: 300px;
+  }
   
+
 
 }
     
