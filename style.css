@@ -156,6 +156,7 @@ body{
 .sobreTerapiaABA{
     padding-left: 22px;
     margin-top: 4%;
+    
 }
 .sobreTerapiaABA h1{
     padding-left: 2px;
@@ -165,7 +166,7 @@ body{
 .explicaAba{
     margin: 0;
     font-size: 23px;
-    z-index: 200px;
+    
 }
 .yellowFlower{
     width:30%;
@@ -174,7 +175,24 @@ body{
     bottom: 135px;
     z-index: 100px;
 }
+.checklist{
+    margin: 0;
+    font-size: 23px;
+    position: relative;
+    right: 0%;
+    width: device-width;
+    margin: 0;
+    padding: 0;
+    
+}
+.checklist li{
+    line-height: 70px;
+    list-style: none;
+}
 
+.check{
+    width: 5%;
+}
 
 
 @media (width <= 768px) {
@@ -248,10 +266,18 @@ body{
     position: relative;
     left: 76.5%;
     width: 30%;
-    bottom: 300px;
+    bottom: 550px;
   }
   
-
+.checklist{
+    font-size: 15px;
+    width: 70%;
+}
+.checklist li{
+    line-height: 30px;
+    text-align: left;
+    
+}
 
 }
     
