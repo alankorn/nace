@@ -153,6 +153,7 @@ body{
 @media (width <= 768px) {
     #paragrafosABA{
         margin: 0 0 0 0;
+        
     }
     
     *{
@@ -160,12 +161,15 @@ body{
     }
     .textosec{
         font-size: 20px;
+        text-align: center;
+        
     }
 
     #textoABA{
         font-size: 30px;
         line-height: 97%;
         margin-top: 1px;
+        text-align: center;
     }
     #imagemCrianca{
        display: none;
@@ -174,7 +178,9 @@ body{
         background-color: white;
                                                                                                                                                                    
   }
-  
+  #divTextoAba{
+        text-align: center;
+  }
   #conhecaBtn{
     margin-bottom: 10px;
     width: 110px;
