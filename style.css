@@ -149,6 +149,12 @@ body{
     border-width: 3px;
 }
 
+.sobreTerapiaABA{
+    padding-left: 10px;
+    margin-top: 4%;
+}
+
+
 
 @media (width <= 768px) {
     #paragrafosABA{
