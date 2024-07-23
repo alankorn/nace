@@ -51,7 +51,7 @@ body{
 
 #carrossel{
    background-image: linear-gradient(to right,#F0F0F0,#fff );
-   padding: 2.5%;
+   padding: 1.5%;
     margin: 0;
     max-width: 100%;
     overflow: hidden;
@@ -95,9 +95,13 @@ body{
     margin: 0;
     z-index:1001;
     width: 100%;
-    overflow: hidden;
-    
-    
+    overflow: hidden;  
+}
+
+.menino{
+    width:500px;
+    position: relative;
+    left: 40%;
 }
 
 #textoABA{
@@ -183,7 +187,7 @@ body{
         margin-left: 0;
     }
     .textosec{
-        font-size: 20px;
+        font-size: 17px;
         text-align: justify;
         padding-right: 2%;
         
@@ -230,7 +234,7 @@ body{
   }
 
   .paragrafoSobre{
-    font-size: 14px;
+    font-size: 15px;
     padding-right: 30%;
     
     
