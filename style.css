@@ -14,13 +14,15 @@ body{
 }
 .logonav{
     width: 60%;
-    margin-left: 2rem;
+    margin-left: 1.4rem;
 }
 
 .nav-link{
     font-weight: 200;
     color: black;
+    transition: 300ms;
 }
+
 
 .nav-link::after{
     content: '';
@@ -29,7 +31,7 @@ body{
     height: 0.3em;
     width: 0%;
     background-color: #03B5E6;
-    transition: all ease-in-out 250ms;
+    transition: all ease-in-out 300ms;
 }
 
 .nav-link:hover::after{
@@ -141,7 +143,7 @@ body{
     font-size: 1.5rem;
     color: #707070;
     -webkit-backface-visibility: hidden;
-    line-height: 97%;
+    line-height: 36px;
 }
 
 #entreEmContatoBtn{
@@ -293,16 +295,26 @@ body{
     height: 35%;
 }
 
+.fotonace{
+    width: 20%;   
+}
+
+.fotosNucleo{
+    background-color: #03B5E6;
+}
+
 
 @media (width <= 768px) {
-    #paragrafosABA{
-        margin: 0 0 0 0;
+    #paragrafosAba{
+        margin: 90px 0 0 0;
         
     }
     
     *{
         margin-left: 0;
     }
+
+
     .textosec{
         font-size: 17px;
         text-align: justify;
@@ -340,7 +352,7 @@ body{
     margin: 0;
   }
   .logonav{
-    margin: 10px;
+    margin: 20px;
   }
   div{
     margin: 0;
