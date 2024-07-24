@@ -168,25 +168,31 @@ body{
     font-size: 23px;
     
 }
-.yellowFlower{
-    width:30%;
-    position: relative; 
-    left: 72.5%; 
-    bottom: 135px;
-    z-index: 100px;
+.paragrafoSobre{
+    width: 80%;
+    position: relative;
+}
+
+
+.flor{
+    position: relative;
+    width: 09%;
+    left: 91.8%;
+    bottom: 300px;
 }
 .checklist{
     margin: 0;
     font-size: 23px;
     position: relative;
     right: 0%;
+    bottom: 250px;
     width: device-width;
     margin: 0;
     padding: 0;
     
 }
 .checklist li{
-    line-height: 70px;
+    line-height: 100px;
     list-style: none;
 }
 
@@ -202,6 +208,66 @@ body{
 .init-hidden-off{
     opacity: 100;
 }
+
+
+.nuvem{
+    position: relative;
+    bottom: 220px;
+}
+
+.nuvemInterna{
+    background-color: #03B5E6;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -1px;
+}
+
+.nuvemInterna h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700
+}
+
+.nuvemText{
+    color: white;
+    font-size: 30px;
+    padding-top: 1.5%;
+    margin-bottom: 0;
+    
+}
+
+.linha{
+    width: 60%;
+    height: 3px;
+    position: relative;
+    top: 1%;
+    
+}
+
+.passos img{
+    width: 40%;
+    margin-top: 6%;
+}
+.legenda{
+    font-size: 24px;
+    color: white;
+}
+.falecomanace{
+    width:35%;
+    height: 30%;
+    padding: 1.5% 1%;
+    flex-shrink: 0;
+    border-radius: 41.739px 0px;
+    background: #FEC92E;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 4%;
+}
+
 
 
 @media (width <= 768px) {
@@ -256,40 +322,67 @@ body{
     margin: 0;
   }
 
+  .sobreABA{
+    max-height:min-content;
+  }
+
   .sobreTerapiaABA h1{
     font-size: 30px;
+    padding-left: 7px;
   }
 
   .paragrafoSobre{
-    font-size: 15px;
-    padding-right: 30%;
-    
+    font-size: 20px;  
+    width: 100%;
     
   }
 
   .sobreTerapiaABA{
     padding: 12px;
+    height: auto;
   }
 
-  .yellowFlower{
-    position: relative;
-    left: 76.5%;
-    width: 30%;
-    bottom: 550px;
+  .flor{
+    display: none;
   }
   
 .checklist{
+    position: relative;
     font-size: 15px;
-    width: 70%;
+    width: 100%;
+    top: 30px;
+    margin-bottom: 30px;
+    
+    
 }
 .checklist li{
     line-height: 30px;
     text-align: left;
-    
+    font-size: 20px;
+    text-align: justify;
+}
+
+.falecomanace{
+    width: auto;
+    height: auto;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+.nuvemInterna h1{
+    font-size: 33px;
+}
+
+.nuvemText{
+    font-size: 24px;
+    padding: 1%;
+}
+.nuvem{
+    position: relative;
+    margin: 0;
 }
 
 }
-    
 @keyframes slide{
     from{
         transform: translateX(0)
