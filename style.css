@@ -328,7 +328,7 @@ background-color: #03b5e6;
     padding: 0;
 }
 
-@media (width <= 768px) {
+@media (width <= 820px) {
     #paragrafosAba{
         margin: 90px 0 0 0;
         
