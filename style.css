@@ -306,7 +306,7 @@ body{
 
 @media (width <= 768px) {
     #paragrafosAba{
-        margin: 90px 0 0 0;
+        margin: 100px 0 0 0;
         
     }
     
@@ -349,10 +349,10 @@ body{
   }
 
   nav{
-    margin: 0;
+    margin-right: 10px;
   }
   .logonav{
-    margin: 120px;
+    margin: 20px;
   }
   div{
     margin: 0;
