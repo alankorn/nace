@@ -389,11 +389,11 @@ body{
     text-align: justify;
 }
 
-.falecomanace{
-    width: 45%;
-    height: 40%;
-    
-    font-size: 15px;
+#falecomanace{
+    width: auto;
+    height: auto;
+    padding: 4%;
+    font-size: 30px;
 }
 
 .nuvemInterna h1{
