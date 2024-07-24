@@ -194,6 +194,15 @@ body{
     width: 5%;
 }
 
+.init-hidden{
+    opacity: 0;
+    transition: opacity 1.5s linear;
+}
+
+.init-hidden-off{
+    opacity: 100;
+}
+
 
 @media (width <= 768px) {
     #paragrafosABA{
