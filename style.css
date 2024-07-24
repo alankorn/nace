@@ -21,6 +21,21 @@ body{
     font-weight: 200;
     color: black;
 }
+
+.nav-link::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.3em;
+    width: 0%;
+    background-color: #03B5E6;
+    transition: all ease-in-out 250ms;
+}
+
+.nav-link:hover::after{
+    width: 6%;
+}
+
 .nav-item{
     padding-left: 2rem;
 }
@@ -38,6 +53,7 @@ body{
     padding-left: 20px;
     max-width: 100%;
     line-height: 300%;
+    margin-top: 0;
     
 }
 
@@ -89,20 +105,22 @@ body{
     font-size: 18px;
 }
 #imagemCrianca{ 
-    max-width: 100%;  
+    width: 100%;  
     position: relative;
     padding: 0;
     margin: 0;
     z-index:1001;
-    width: 100%;
     overflow: hidden;  
+    
 }
 
 .menino{
     width:500px;
     position: relative;
-    left: 40%;
+    left: 33%;
 }
+
+
 
 #textoABA{
     font-size: 3rem;
@@ -254,7 +272,7 @@ body{
     font-size: 24px;
     color: white;
 }
-.falecomanace{
+#falecomanace{
     width:35%;
     height: 30%;
     padding: 1.5% 1%;
@@ -268,6 +286,12 @@ body{
     margin-top: 4%;
 }
 
+#falecomanace:hover{
+    background-color: #103035;
+    transition: 1s;
+    width: 40%;
+    height: 35%;
+}
 
 
 @media (width <= 768px) {
