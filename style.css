@@ -20,7 +20,7 @@ body{
 .nav-link{
     font-weight: 200;
     color: black;
-    transition: 300ms;
+    transition: 400ms;
 }
 
 .nav-link::after{
@@ -102,9 +102,20 @@ body{
     z-index: 1002;
     animation-duration: 3s;
     animation-name: slidein;
+    transition: 400ms;
+}
+.nav-link{
+    transition: 400ms;
+    transition: all ease-in-out 400ms;
 }
 .nav-link:hover{
     font-size: 18px;
+    animation-duration: 3s;
+    transition: all ease-in-out 400ms;
+}
+.nav-link:hover::before{
+    transition: 400ms;
+    transition: all ease-in-out 400ms;
 }
 #imagemCrianca{ 
     width: 100%;  
