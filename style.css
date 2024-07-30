@@ -340,6 +340,7 @@ background-color: #03b5e6;
 
 .depoimentos h1{
     font-size: 80px;
+    margin: 0 0;
 }
 .coracoes{
     width:6%;
@@ -365,6 +366,46 @@ background-color: #03b5e6;
     border-radius: 2%;
 }
 
+.contato{
+    position: relative;
+    top: -200px;
+    padding-left: 2%;
+}
+
+.dadosContato{
+    max-width: 100%;
+    padding-left: 0;
+    position: relative;
+    padding-top: 1.5%;
+    
+}
+
+.dadosContato .col{
+padding: 0;
+margin: 0;
+}
+
+.linkcontato{
+    text-decoration: none;
+    color: black;
+    padding-left: 3%; 
+      
+}  
+
+.linkcontato h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.linkcontato img{
+    width: 4%;
+}
+
+.divideLinha{
+    height: 10px; 
+    width: 70% ;
+    padding-left: 3%;
+}
 
 @media (width <= 820px) {
     #paragrafosAba{
@@ -530,6 +571,30 @@ background-color: #03b5e6;
     
     .depoimento{
         margin-top: 7%;
+    }
+
+    .contato{
+        top: 0;
+    }
+    #divisor{
+        position: relative;
+        top: -80px;
+    }
+
+    .linkcontato{
+        padding: 0;
+    }
+    .divideLinha{
+        padding: 0;
+    }
+
+    .contato ul{
+        padding-top: 30px;
+    }
+
+    .mapa{
+        width: 100%;
+        margin: 0;
     }
 
 }
