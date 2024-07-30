@@ -590,13 +590,11 @@ margin: 0;
         padding: 0;
     }
 
+    .contato{
+        max-width: 100%;
+    }
     .contato ul{
         padding-top: 30px;
-    }
-
-    .mapa{
-        width: 100%;
-        margin: 0;
     }
 
 }
