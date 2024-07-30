@@ -152,25 +152,34 @@ body{
 
 .textosec{
     font-size: 1.5rem;
-    color: #707070;
+    color: black;
     -webkit-backface-visibility: hidden;
     line-height: 40px;
+}
+
+.paragrafoSobre span{
+    font-weight: 700;
 }
 
 #entreEmContatoBtn{
     background-color: #03B5E6;
     font-weight: 700;
-    width: 220px;
+    font-size: 20px;
+    width:35%;
+    height: auto;
+    padding: 1.5% 1%;
     
 }
 #conhecaBtn{
     border-color: #FEC92E;
     border-width: 3px;
+    font-size: 20px;
     background-color: #fff;
     color: black;
     font-weight: 700;
     margin-left: 20px;
-    width: 220px;
+    width: 35%;
+    padding: 1.5% 1%;
 }
 
 #entreEmContatoBtn:hover{
