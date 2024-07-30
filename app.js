@@ -12,7 +12,7 @@ const observer = new IntersectionObserver(entries=> {
     })
     
 },{
-    threshold: [0.5, 1]
+    threshold: [1]
 })
 
 Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {

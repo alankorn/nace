@@ -285,8 +285,8 @@ body{
     color: white;
     font-size: 30px;
     font-weight: 700;
-    margin-top: 4%;
-    margin-bottom: 0;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 #falecomanace:hover{
@@ -306,7 +306,7 @@ background-color: #03b5e6;
     white-space: nowrap;
     height: 40%;
     position: relative;
-    top:-240px
+    top: -225px;
     
 }
 
@@ -323,10 +323,37 @@ background-color: #03b5e6;
 }
 
 .depoimentos{
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    top: -225px;
+    position: relative;
 }
+
+.depoimentos h1{
+    font-size: 80px;
+}
+.coracoes{
+    width:6%;
+    position: relative;
+}
+
+.c1{
+    right: 48%;
+    top:30%
+}
+.c2{
+    left:47.81%;
+    bottom:20%;
+}
+
+.videos{
+    position: relative;
+    max-width: 100%;
+    top: -80px;
+}
+.depoimento{
+    border: 12px solid #03b5e6;
+    border-radius: 2%;
+}
+
 
 @media (width <= 820px) {
     #paragrafosAba{
@@ -451,25 +478,48 @@ background-color: #03b5e6;
 #carrosselnucleo{
     background-color: #03b5e6;
        padding-top: 2%;
-       padding-bottom: 15%;
+       padding-bottom: 25%;
         margin: 0;
         max-width: 100%;
         overflow: hidden;
         white-space: nowrap;
         height: 40%;
         position: relative;
-        top:35px
+        top:40px;
         
     }
     
     #carrosselnucleo img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border: 7px solid white;
         border-radius: 2%;
         margin: 12px;                                                                                            
     }
+
+    .depoimentos{
+    position: relative;
+    top: 50px;
     
+    }
+    
+    .depoimentos h1{
+        font-size: 40px;
+        margin-bottom: 8%; 
+    } 
+
+    .coracoes{
+        width: 32px;
+        
+    }
+
+    .c2{
+        left: 194px;
+    }
+    
+    .depoimento{
+        margin-top: 7%;
+    }
 
 }
 @keyframes slide{
