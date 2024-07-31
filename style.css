@@ -416,9 +416,10 @@ margin: 0;
 }
 
 footer{
-    position: relative;
-    top: -50%;
+    position: absolute;
     margin: 0;
+    width: 100%;
+    top: 585%;
     
 }
 
@@ -448,7 +449,7 @@ footer{
 }
 
 .linksuteis{
-    padding: 1% 20%;
+    padding: 0% 20%;
     max-width: 100%;
     background-color: #FEC92E;
 }
@@ -658,6 +659,7 @@ footer{
 
     footer{
         background-repeat: no-repeat no-repeat;
+        position: relative
         
        
     }
@@ -689,8 +691,10 @@ footer{
     
 
     .copyright{
+        position: absolute;
         margin: 0;
         padding: 0;
+        bottom: 10px;
     }
 
 }
