@@ -418,14 +418,15 @@ margin: 0;
 footer{
     position: relative;
     top: -50%;
-    background-image: url(./images/Group\ 94.png);
-    background-size: 100%;
+    margin: 0;
     
 }
 
 .titulofooter{
     max-width: 100%;
-    
+    background-image: url(./images/Group\ 94.png); 
+    background-size: 100%; 
+    padding-bottom: 4%;
 }
 
 .titulofooter h1{
@@ -449,6 +450,7 @@ footer{
 .linksuteis{
     padding: 1% 20%;
     max-width: 100%;
+    background-color: #FEC92E;
 }
 
 .copyright{
@@ -662,32 +664,33 @@ footer{
     .titulofooter{
         padding-left: 5%;
         margin: 0;
+        padding-top: 8%;
+        background-repeat: no-repeat no-repeat;
     }
     .titulofooter h1{
         font-size: 21px;
         margin-top: 22%;
-        background-color: #FEC92E;
-        padding-top: 0;
-        
-        
+        padding-top: 0;        
     }
 .titulofooter h1 br{
     display: none;
 }
 
     .linksuteis{
-        background-color: #FEC92E;
+        
         margin: 0 0 0 0;
-        padding: 6% 0;
+        padding: 8% 0;
         padding-right: 4%;
         position: relative;
-        left: 3%;
+        top: -35px;
+        z-index: -1;
         
     }
     
 
     .copyright{
-        padding-top: 1%;
+        margin: 0;
+        padding: 0;
     }
 
 }
