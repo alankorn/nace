@@ -665,7 +665,10 @@ footer{
     }
     .titulofooter h1{
         font-size: 21px;
-        margin-top: 6%;
+        margin-top: 22%;
+        background-color: #FEC92E;
+        padding-top: 0;
+        
         
     }
 .titulofooter h1 br{
