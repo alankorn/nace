@@ -419,7 +419,7 @@ footer{
     position: absolute;
     margin: 0;
     width: 100%;
-    top: 585%;
+    top:auto;
     
 }
 
@@ -659,7 +659,7 @@ footer{
 
     footer{
         background-repeat: no-repeat no-repeat;
-        position: relative
+        position: relative;
         
        
     }
