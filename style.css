@@ -13,8 +13,16 @@ body{
     width: 100%;
 }
 .logonav{
-    width: 60%;
+    width: 80%;
     margin-left: 1.5rem;
+}
+
+.dna{
+    position: absolute;
+    right :  20px;
+    top: 11px;
+    width : 6.5rem;
+
 }
 
 .nav-link{
@@ -200,7 +208,7 @@ body{
 }
 .sobreTerapiaABA h1{
     padding-left: 2px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: black;
 }
 .explicaAba{
@@ -345,6 +353,10 @@ background-color: #03b5e6;
 .depoimentos{
     top: -225px;
     position: relative;
+    background-image: url(./images/nuveminv.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: 1750px;
+    
 }
 
 .depoimentos h1{
@@ -480,6 +492,11 @@ footer{
         
     }
 
+    .dna {
+         position: relative;
+         top: -2px;
+    }
+
     #textoABA{
         font-size: 30px;
         line-height: 97%;
@@ -609,6 +626,7 @@ footer{
     position: relative;
     top: 30px;
     max-width: 100%;
+    background-size: 133%;
     
     }
     
