@@ -493,10 +493,9 @@ footer{
     }
 
     .dna {
-         position: relative;
-         top: -2px;
+         position:absolute;
+         right: 20%;
     }
-
     #textoABA{
         font-size: 30px;
         line-height: 97%;
@@ -666,6 +665,9 @@ footer{
     .divideLinha{
         padding: 0;
     }
+    .horario{
+        width: 70%;
+    }
 
     .contato{
         max-width: 100%;
@@ -689,7 +691,11 @@ footer{
     .titulofooter h1{
         font-size: 21px;
         margin-top: 22%;
-        padding-top: 0;        
+        padding-top: 0; 
+        padding-bottom: 4%;  
+        background-color: #FEC92E;  
+        position: relative;
+        top: -12px;   
     }
 .titulofooter h1 br{
     display: none;
@@ -701,8 +707,8 @@ footer{
         padding: 8% 0;
         padding-right: 4%;
         position: relative;
-        top: -35px;
-        z-index: -1;
+        top: -45px;
+        
         
     }
     
